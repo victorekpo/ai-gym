@@ -1,2 +1,4 @@
-brew install swig
-/usr/bin/pip3 install "gymnasium[all]"
+# Gymnasium
+
+- brew install swig
+- /usr/bin/pip3 install "gymnasium[all]"
