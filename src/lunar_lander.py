@@ -1,6 +1,6 @@
 import gymnasium as gym
 
-def run_gym():
+def run_lunar_lander():
     # Initialise the environment
     env = gym.make("LunarLander-v3", render_mode="human")
 
@@ -14,7 +14,7 @@ def run_gym():
         # receiving the next observation, reward and if the episode has terminated or truncated
         observation, reward, terminated, truncated, info = env.step(action)
 
-        print(f"Observation: {observation}")
+        print(f"Observation: {observation}, Reward: {reward}, Terminated: {terminated}, Truncated: {truncated}")
 
         # If the episode has ended then we can reset to start a new episode
         if terminated or truncated:

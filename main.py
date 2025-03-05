@@ -1,5 +1,6 @@
 # This is a sample Python script.
-from src.main import run_gym
+from src.cart_pole import run_cart_pole
+from src.lunar_lander import run_lunar_lander
 
 
 # Press ⌃R to execute it or replace it with your code.
@@ -13,6 +14,7 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    run_gym()
+    run_cart_pole()
+    # run_lunar_lander()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
